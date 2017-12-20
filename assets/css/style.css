@@ -1,0 +1,16 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:20px;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-image: url("../images/Sports.png");
+}
+
+img{
+    height:160px;
+    width: 160px;
+}
+
