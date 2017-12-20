@@ -42,44 +42,46 @@ function lost (){
 }
 
 $('#paris1').on ('click', function(){
-    playerTotal = playerTotal + number1;
-    console.log("New playerTotal= " + playerTotal);
+  playerTotal = playerTotal + number1;
+  console.log("New playerTotal= " + playerTotal);
     $('#finalTotal').text(playerTotal); 
-        if (playerTotal == Random){
-          winner();
-        }
-        else if ( playerTotal > Random){
-          lost();
-        }   
-  })  
+      if (playerTotal == Random){
+        winner();
+      }
+      else if ( playerTotal > Random){
+        lost();
+      }   
+  })
+
   $('#paris2').on ('click', function(){
-    playerTotal = playerTotal + number2;
-    console.log("New playerTotal= " + playerTotal);
+  playerTotal = playerTotal + number2;
+  console.log("New playerTotal= " + playerTotal);
     $('#finalTotal').text(playerTotal); 
-        if (playerTotal == Random){
-          winner();
-        }
-        else if ( playerTotal > Random){
-          lost();
-        } 
-  })  
+      if (playerTotal == Random){
+        winner();
+      }
+      else if ( playerTotal > Random){
+        lost();
+      } 
+  })
+
   $('#paris3').on ('click', function(){
     playerTotal = playerTotal + number3;
     console.log("New playerTotal= " + playerTotal);
-    $('#finalTotal').text(playerTotal);
-          if (playerTotal == Random){
+      $('#finalTotal').text(playerTotal);
+        if (playerTotal == Random){
           winner();
         }
         else if ( playerTotal > Random){
           lost();
         } 
-  })  
+  })
+
   $('#paris4').on ('click', function(){
-    playerTotal = playerTotal + number4;
-    console.log("New playerTotal= " + playerTotal);
+  playerTotal = playerTotal + number4;
+  console.log("New playerTotal= " + playerTotal);
     $('#finalTotal').text(playerTotal); 
-      
-          if (playerTotal == Random){
+      if (playerTotal == Random){
           winner();
         }
         else if ( playerTotal > Random){
